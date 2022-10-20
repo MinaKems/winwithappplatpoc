@@ -11,8 +11,7 @@ on:
 
 env:                                            
   REACT_APP_API_URL: ${{ secrets.API_URL }}     
-  REACT_APP_API_KEY: ${{ secrets.API_KEY }}     
-  
+  REACT_APP_API_KEY: ${{ secrets.API_KEY }}      
 jobs:
   build:
     runs-on: windows-latest
